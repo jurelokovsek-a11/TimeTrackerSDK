@@ -1,4 +1,8 @@
 # TimeTrackerSDK
+![Version](https://img.shields.io/github/v/tag/af2905/TimeTrackerSDK?label=version)
+![License](https://img.shields.io/github/license/af2905/TimeTrackerSDK)
+[![](https://jitpack.io/v/af2905/TimeTrackerSDK.svg)](https://jitpack.io/#af2905/TimeTrackerSDK)
+
 
 Lightweight Kotlin SDK to measure execution time of operations in Android apps — suitable for both debugging and production use.
 
