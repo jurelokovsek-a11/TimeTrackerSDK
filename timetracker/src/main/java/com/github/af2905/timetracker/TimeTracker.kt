@@ -12,13 +12,13 @@ object TimeTracker {
     private val durations = mutableMapOf<String, Long>()
 
     /** Enable or disable tracking globally. */
-    var isEnabled: Boolean = true
+    private var isEnabled: Boolean = true
 
     /**
      * Optional custom logger.
      * Default: logs to Logcat with tag "TimeTracker"
      */
-    var logger: ((String, String) -> Unit)? = { tag, message ->
+    private var logger: ((String, String) -> Unit)? = { tag, message ->
         Log.d(tag, message)
     }
 
